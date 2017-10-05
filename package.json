@@ -1,0 +1,23 @@
+{
+  "name": "epam-js-2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && nodemon ./dist/bundle.js"
+  },
+  "author": "Sergii Azizov",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "csvtojson": "^1.1.7"
+  }
+}
